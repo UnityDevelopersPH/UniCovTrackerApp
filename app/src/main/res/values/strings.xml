@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">UniCov Tracker</string>
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+    <string name="covidTrackerDevelopers">COVID TRACKER APP DEVELOPERS</string>
+
+
+    <string name="card_cases">TOTAL CASES</string>
+    <string name="card_death">TOTAL  DEATHS</string>
+    <string name="card_recovered">TOTAL RECOVERED</string>
+    <string name="card_today_cases">TODAY CASES</string>
+    <string name="card_today_DEATHS">TODAY DEATHS</string>
+    <string name="close_str">CLOSE</string>
+
+    <!--    Front end Info -->
+    <string name="fe_name">John Lester Legaspi</string>
+    <string name="frontEnd">FRONT-END DEVELOPER / GRAPHIC DESIGNER</string>
+    <string name="facebook_fe">Facebook : IamPseudoX</string>
+    <string name="facebook_page_fe">Page : PseudoGamingPH / Unity Developers</string>
+    <string name="instagram_fe">Instagram : IamPseudoX</string>
+    <string name="github_fe">Github: PseudoDevs</string>
+    <string name="website_fe">Website: https://www.iampseudox.uk</string>
+
+
+    <!--    Backend Info -->
+    <string name="br_name">Christopher Francisco</string>
+    <string name="backEnd">BACK-END DEVELOPER / ANDROID DEVELOPER</string>
+    <string name="facebook_be">Facebook : christopher.main.904</string>
+    <string name="facebook_page_be">Page : Unity Developers</string>
+    <string name="instagram_be">Instagram : christopherfrancisco8087</string>
+
+
+    <string name="ref">Reference</string>
+    <string name="source">https://github.com/novelcovid/api</string>
+</resources>

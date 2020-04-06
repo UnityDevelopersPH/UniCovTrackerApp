@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:layout_gravity="left"
+    android:layout_width="match_parent"
+    android:background="@color/cardColor"
+    android:layout_height="200dp">
+
+    <LinearLayout
+        android:background="@color/cardColor"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent">
+<pl.droidsonroids.gif.GifImageView
+    android:background="@color/cardColor"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/unity"/>
+        <LinearLayout
+            android:background="@color/cardColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:background="@color/cardColor"
+                android:textColor="@color/whiteColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unity Developers"
+                android:textSize="20sp"/>
+            <TextView
+                android:background="@color/cardColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/whiteColor"
+                android:text="Covid Tracker App"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

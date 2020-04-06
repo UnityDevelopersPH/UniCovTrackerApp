@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        app:titleTextColor="@color/whiteColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/unity"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/covidTrackerDevelopers"
+            android:textSize="7pt"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/qurany"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/whiteColor"/>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardColor"
+            app:contentPadding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:background="@color/cardColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="@string/fe_name"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="@string/frontEnd"
+                    android:textColor="@color/whiteColor"
+                    android:layout_marginTop="15dp"
+                    android:textSize="6pt"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="@string/facebook_fe"
+                    android:background="@color/cardColor"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="5pt"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/qurany_light"
+                    android:background="@color/cardColor"
+                    android:text="@string/facebook_page_fe"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="5pt"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="@string/instagram_fe"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="5pt"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="@string/github_fe"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="5pt"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="@string/website_fe"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="5pt"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardColor"
+            app:contentPadding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:background="@color/cardColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="Christopher Francisco"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="@string/backEnd"
+                    android:textColor="@color/whiteColor"
+                    android:layout_marginTop="15dp"
+                    android:textSize="6pt"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="Facebook : christopher.main.904"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="5pt"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="@string/facebook_page_be"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="5pt"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="@string/instagram_be"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="5pt"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/cardColor"
+            app:contentPadding="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:background="@color/cardColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:text="@string/ref"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cardColor"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/qurany_light"
+                    android:text="@string/source"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="4.5pt" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

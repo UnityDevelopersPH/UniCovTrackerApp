@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@color/mainColor"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            app:titleTextColor="@color/whiteColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COUNTRY LIST"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:textColor="#00FF66"/>
+
+<LinearLayout
+    android:padding="20dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/reloadData"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/mainColor">
+    <ListView
+        android:scrollbars="none"
+        android:id="@+id/list"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>
+</LinearLayout>

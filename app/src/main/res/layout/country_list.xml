@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/item_box"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardBackgroundColor="@color/cardColor"
+        card_view:contentPaddingLeft="10dp"
+        card_view:contentPaddingRight="10dp"
+        card_view:contentPaddingTop="15dp"
+        card_view:contentPaddingBottom="15dp"
+        android:layout_marginTop="20dp"
+         android:layout_marginBottom="20dp"
+        card_view:cardElevation="5dp">
+        <LinearLayout
+            android:background="@color/cardColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            
+            <ImageView
+                android:background="@color/cardColor"
+                android:id="@+id/flag"
+                android:layout_width="49dp"
+                android:layout_height="25dp"/>
+
+            <TextView
+                android:background="@color/cardColor"
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:layout_weight="1.0"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/textColor"
+                android:textSize="15sp"/>
+    <TextView
+        android:background="@color/cardColor"
+        android:id="@+id/t_cases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cases"
+        android:layout_weight="1.0"
+        android:textColor="#F83F3F"
+        android:gravity="end"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
