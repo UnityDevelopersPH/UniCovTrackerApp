@@ -1,4 +1,4 @@
-# Unicov Tracker App [![Developed by Joshua Alcantara](https://img.shields.io/badge/Developed--By-Joshua--Alcantara-red?longCache=true&style=for-the-badge)](https://facebook.com/IamPseudoX)[![Developed by Christopher Francisco](https://img.shields.io/badge/-Christopher%20Francisco-blue?longCache=true&style=for-the-badge)]
+# Unicov Tracker App [![Developed by Joshua Alcantara](https://img.shields.io/badge/Developed--By-Joshua--Alcantara-red?longCache=true&style=for-the-badge)](https://facebook.com/IamPseudoX)[!Developed by Christopher Francisco](https://img.shields.io/badge/-Christopher%20Francisco-blue?longCache=true&style=for-the-badge)]
 
     Created by Pseudo-X [2019 Spammer Tool - Re-developed ]
 
