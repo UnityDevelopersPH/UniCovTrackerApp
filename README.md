@@ -1,6 +1,6 @@
 # Unicov Tracker App 
-### Front End Developer [![Joshua Alcantara](https://img.shields.io/badge/Developed--By-Joshua--Alcantara-red?longCache=true&style=for-the-badge)](https://facebook.com/IamPseudoX)
-### Back End Developer [![Christopher Francisco](https://img.shields.io/badge/-Christopher%20Francisco-blue?longCache=true&style=for-the-badge)](https://www.facebook.com/christopher.main.904)
+### [![Joshua Alcantara](https://img.shields.io/badge/Front%20End%20Developer-Joshua%20Alcantara-red?longCache=true&style=for-the-badge)](https://facebook.com/IamPseudoX)
+### [![Christopher Francisco](https://img.shields.io/badge/Back%20End%20Developer-Christopher%20Francisco-blue?longCache=true&style=for-the-badge)](https://www.facebook.com/christopher.main.904)
 
     Created by Pseudo-X [2019 Spammer Tool - Re-developed ]
 
